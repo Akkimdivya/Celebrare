@@ -1,2 +1,2 @@
-'Simple text editing wed page'
-celebrare7.ccbp.tech
+Simple text editing wed page
+Link:celebrare7.ccbp.tech
