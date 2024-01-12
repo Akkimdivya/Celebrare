@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8 col-lg-9">
+                    <div class="bg-back">
+                        <div class="bg-img waviy">
+                            <h1 id="changeColor" class="color-mar ">Divya Akkim</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 so">
+                    <div class="container">
+                        <div class="row">
+                            <select class="form-select col-12" id="fontFamilySelect">
+                                <option value="">Select</option>
+                                <option value="Georgia,serif" style="font-family: Georgia,serif">Georgia</option>
+                                <option value="Palatino Linotype,Book Antiqua,Palatino,serif" style="font-family: Palatino Linotype,Book Antiqua,Palatino,serif">Palatino Linotype</option>
+                                <option value="Times New Roman,Times,serif" style="font-family: Times New Roman,Times,serif">Times New Roman</option>
+                                <option value="Arial,Helvetica,sans-serif" style="font-family: Arial,Helvetica,sans-serif">Arial</option>
+                                <option value="Arial Black,Gadget,sans-serif" style="font-family: Arial Black,Gadget,sans-serif">Arial Black</option>
+                                <option value="Comic Sans MS,cursive,sans-serif" style="font-family: Comic Sans MS,cursive,sans-serif">Comic Sans MS</option>
+                                <option value="Impact,Charcoal,sans-serif" style="font-family: Impact,Charcoal,sans-serif">Impact</option>
+                                <option value="Lucida Sans Unicode,Lucida Grande,sans-serif" style="font-family: Lucida Sans Unicode,Lucida Grande,sans-serif">Lucida Sans Unicode</option>
+                                <option selected="selected" value="Tahoma,Geneva,sans-serif" style="font-family: Tahoma,Geneva,sans-serif">Tahoma</option>
+                                <option value="Trebuchet MS,Helvetica,sans-serif" style="font-family: Trebuchet MS,Helvetica,sans-serif">Trebuchet MS</option>
+                                <option value="Verdana,Geneva,sans-serif" style="font-family: Verdana,Geneva,sans-serif">Verdana</option>
+                                <option value="Courier New,Courier,monospace" style="font-family: Courier New,Courier,monospace">Courier New</option>
+                                <option value="Lucida Console,Monaco,monospace" style="font-family: Lucida Console,Monaco,monospace">Lucida Console</option>
+                            </select>
+                            <div class="buttons-container d-flex flex-row shadow m-auto col-6">
+                                <button class="button" id="decrementButton" onclick="onDecrement()">-</button>
+                                <hr class="hr-line" />
+                                <span class="width-in-px">5px</span>
+                                <hr class="hr-line" />
+                                <button class="button" id="incrementButton" onclick="onIncrement()">+</button>
+                            </div>
+                            <div class="col-6 color">
+                                <input type="color" id="favcolor">
+                            </div>
+                            <div class="col-12 buttons">
+                                <div>
+                                    <button class="custom-button" onclick="myFunction()">Add Style</button>
+                                </div>
+                                <div>
+                                    <button class="custom-button" onclick="removeAdd()">Undo</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
